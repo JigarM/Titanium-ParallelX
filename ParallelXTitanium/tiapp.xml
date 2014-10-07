@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>com.mobmaxime.sample</id>
-    <name>Parallel</name>
+    <id>com.jigar.ParallelX</id>
+    <name>ParallelX</name>
     <version>1.0</version>
     <publisher>MM</publisher>
     <url>http://mobmaxime.com</url>
     <description>undefined</description>
-    <copyright>2014 by MM</copyright>
+    <copyright>2014 by JigarM</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>

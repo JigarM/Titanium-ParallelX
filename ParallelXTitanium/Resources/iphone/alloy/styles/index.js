@@ -1,0 +1,1 @@
+module.exports = [{"isId":true,"priority":100000.0002,"key":"index","style":{backgroundColor:"#999",}},{"isId":true,"priority":100000.0003,"key":"table","style":{top:0,bottom:0,separatorColor:"#918922",}},{"isId":true,"priority":100000.0004,"key":"sample","style":{image:"/images/a.jpg",top:0,width:Titanium.UI.FILL,height:150,zIndex:10,}}];

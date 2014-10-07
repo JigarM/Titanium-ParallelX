@@ -1,4 +1,4 @@
-// generate random number, used to make each row appear distinct for this example
+/*// generate random number, used to make each row appear distinct for this example
 function randomInt(max) {
     return Math.floor(Math.random() * max) + 1;
 }
@@ -79,8 +79,43 @@ for (var i = 1; i <= 20; i++) {
     row.add(labelDate);
 
     tableData.push(row);
-}
+}*/
+var tableData = [];
+var defaultFontSize = Ti.Platform.name === 'android' ? 16 : 18;
+var name = ["John Doe", "James Smith", "John Carter", "James Steen", "Charles Doe", "John Doe", "Charles Steve", "Steve Doe", "Duck Doe", "Dan Lee", "John Carter"];
+for (var i = 1; i <= 19; i++) {
+    var row = Ti.UI.createTableViewRow({
+        className : 'forumEvent', // used to improve table performance
+        selectedBackgroundColor : 'white',
+        rowIndex : i, // custom property, useful for determining the row during events
+        height : 70,
+        hasChild : true
+    });
 
+    var imageAvatar = Ti.UI.createImageView({
+        image : "/images/"+i+".png",
+        left : 10,
+        top : 5,
+        width : 50,
+        height : 50
+    });
+    row.add(imageAvatar);
+    
+    var labelDate = Ti.UI.createLabel({
+        color : '#999',
+        font : {
+            fontFamily : 'Arial',
+            fontSize : defaultFontSize,
+            fontWeight : 'bold'
+        },
+        text : name[Math.floor((Math.random() * 10) + 1)],
+        left : 65,
+        right : 10
+    });
+    row.add(labelDate);
+
+    tableData.push(row);
+}
 $.table.setData(tableData);
 
 $.table.addEventListener("scroll", function(e){

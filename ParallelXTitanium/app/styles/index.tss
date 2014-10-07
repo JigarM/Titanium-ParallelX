@@ -7,7 +7,7 @@
 	separatorColor : "#918922"
 },
 "#sample":{
-	image : "/images/a.jpeg",
+	image : "/images/a.jpg",
 	top : 0,
 	width : Titanium.UI.FILL,
 	height : 150,
