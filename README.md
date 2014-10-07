@@ -8,10 +8,10 @@ Titanium ParalllelX in Ttableview (Header Zoom)
 ### Hows Flow looks like ?: 
 
 <p align="center">
-<a href="http://s1282.photobucket.com/user/jigarm_0809/media/ctlic_zpse599b235.gif.html" target="_blank"><img src="http://i1282.photobucket.com/albums/a534/jigarm_0809/ctlic_zpse599b235.gif" border="0" alt="Titanium headerzoom photo ctlic_zpse599b235.gif"/></a>
+<a href="http://s1282.photobucket.com/user/jigarm_0809/media/ctlic_zpse599b235.gif.html" target="_blank"><img src="http://i1282.photobucket.com/albums/a534/jigarm_0809/ctlic_zpse599b235.gif" border="0" alt="Titanium headerzoom photo ctlic_zpse599b235.gif" height="500px"/></a>
 </p>
 
-### TITANIUM ALLOY / JAVASCCRIPT : 
+### TITANIUM ALLOY / JAVASCRIPT : 
 
 ```javascript
 $.table.addEventListener("scroll", function(e){
