@@ -1,0 +1,15 @@
+"#index": {
+	backgroundColor:"#999"
+},
+"#table" : {
+	top : 0,
+	bottom : 0,
+	separatorColor : "#918922"
+},
+"#sample":{
+	image : "/images/a.jpeg",
+	top : 0,
+	width : Titanium.UI.FILL,
+	height : 150,
+	zIndex : 10
+}

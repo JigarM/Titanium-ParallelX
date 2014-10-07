@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="index">
+		<ImageView id="sample" />
+		<TableView id="table">
+			<HeaderView>
+				<View backgroundColor="transparent" height="150dp"/>
+			</HeaderView>
+		</TableView>
+	</Window>
+</Alloy>
